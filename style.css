@@ -5,5 +5,8 @@
     min-height: auto !important;
     padding-top: 55px !important;
     padding-bottom: 55px !important;
+  }.hero h1 {
+    font-size: 38px !important;
+    line-height: 1.08 !important;
   }
 }
