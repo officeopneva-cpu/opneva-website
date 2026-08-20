@@ -1,645 +1,129 @@
 <!doctype html>
 <html lang="de">
-
 <head>
   <meta charset="utf-8">
-
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1"
-  >
-
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>OPNEVA – Operations. Elevated.</title>
-
-  <meta
-    name="description"
-    content="OPNEVA – Digitales Backoffice für kleine und mittelständische Unternehmen."
-  >
-
+  <meta name="description" content="OPNEVA unterstützt kleine und mittelständische Unternehmen mit digitalem Backoffice, Organisation, Kundenkommunikation, Inhalten und strukturierten Abläufen.">
+  <meta name="theme-color" content="#07111f">
   <link rel="icon" href="favicon.svg">
   <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="OPNEVA Startseite">
+    <img src="Logo.png" alt="OPNEVA Logo">
+    <span class="brand-copy"><strong>OPNEVA</strong><small>OPERATIONS. ELEVATED.</small></span>
+  </a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Menü öffnen">☰</button>
+  <nav id="main-nav" class="main-nav" aria-label="Hauptnavigation">
+    <a href="#leistungen">Leistungen</a>
+    <a href="#pakete">Pakete</a>
+    <a href="#ablauf">Ablauf</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+</header>
 
-  <!-- =========================
-       NAVIGATION
-  ========================== -->
-
-  <header class="nav">
-
-    <a class="brand" href="#top">
-
-      <img
-        src="Logo.png"
-        alt="OPNEVA Logo"
-      >
-
-      <span>
-        OPNEVA
-        <small>OPERATIONS. ELEVATED.</small>
-      </span>
-
-    </a>
-
-
-    <nav>
-      <a href="#leistungen">Leistungen</a>
-      <a href="#pakete">Pakete</a>
-      <a href="#ablauf">Ablauf</a>
-      <a href="#kontakt">Kontakt</a>
-    </nav>
-
-  </header>
-
-
-  <main id="top">
-
-
-    <!-- =========================
-         HERO
-    ========================== -->
-
-    <section class="hero">
-
-      <div>
-
-        <p class="eyebrow">
-          DIGITALES BACKOFFICE FÜR UNTERNEHMEN
-        </p>
-
-
-        <h1>
-          Mehr Zeit.<br>
-          Weniger Bürokratie.<br>
-          <em>Bessere Abläufe.</em>
-        </h1>
-
-
-        <p>
-          Sie kümmern sich um Ihr Geschäft.
-          <strong>
-            OPNEVA kümmert sich um den Rest.
-          </strong>
-        </p>
-
-
-        <div class="actions">
-
-          <a
-            class="btn"
-            href="#kontakt"
-          >
-            Unverbindlich anfragen
-          </a>
-
-
-          <a
-            class="btn ghost"
-            href="#leistungen"
-          >
-            Leistungen ansehen
-          </a>
-
-        </div>
-
+<main id="top">
+  <section class="hero section-shell">
+    <div class="hero-copy">
+      <p class="eyebrow">DIGITALES BACKOFFICE FÜR UNTERNEHMEN</p>
+      <h1>Mehr Zeit.<br>Weniger Bürokratie.<br><em>Bessere Abläufe.</em></h1>
+      <p class="hero-text">Sie kümmern sich um Ihr Geschäft. <strong>OPNEVA kümmert sich um den Rest.</strong></p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#kontakt">Unverbindlich anfragen</a>
+        <a class="btn btn-secondary" href="#leistungen">Leistungen ansehen</a>
       </div>
-
-
-      <div class="hero-card">
-
-        <img
-          src="Logo.png"
-          alt="OPNEVA"
-        >
-
-        <h2>
-          Operations. Elevated.
-        </h2>
-
-        <p>
-          Digital · zuverlässig · flexibel
-        </p>
-
+      <div class="trust-row" aria-label="Vorteile">
+        <span>Persönlich</span><span>Flexibel</span><span>Strukturiert</span>
       </div>
-
-    </section>
-
-
-
-    <!-- =========================
-         ÜBER OPNEVA
-    ========================== -->
-
-    <section class="section intro">
-
-      <p class="eyebrow">
-        ÜBER OPNEVA
-      </p>
-
-
-      <h2>
-        Ein modernes Backoffice,<br>
-        das mitdenkt.
-      </h2>
-
-
-      <p>
-        OPNEVA unterstützt kleine und mittelständische
-        Unternehmen bei Organisation,
-        Kundenkommunikation, digitalen Inhalten und
-        strukturierten Abläufen – damit im Tagesgeschäft
-        weniger liegen bleibt.
-      </p>
-
-
-      <div class="grid3">
-
-
-        <article>
-
-          <b>01</b>
-
-          <h3>
-            Persönlich
-          </h3>
-
-          <p>
-            Klare Kommunikation und ein direkter
-            Ansprechpartner.
-          </p>
-
-        </article>
-
-
-        <article>
-
-          <b>02</b>
-
-          <h3>
-            Flexibel
-          </h3>
-
-          <p>
-            Unterstützung passend zum tatsächlichen
-            Bedarf.
-          </p>
-
-        </article>
-
-
-        <article>
-
-          <b>03</b>
-
-          <h3>
-            Effizient
-          </h3>
-
-          <p>
-            Weniger Kleinkram, bessere Abläufe,
-            mehr Fokus.
-          </p>
-
-        </article>
-
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =========================
-         LEISTUNGEN
-    ========================== -->
-
-    <section
-      id="leistungen"
-      class="section dark"
-    >
-
-      <p class="eyebrow">
-        UNSERE LEISTUNGEN
-      </p>
-
-
-      <h2>
-        Wir übernehmen Aufgaben,<br>
-        die Zeit kosten.
-      </h2>
-
-
-      <div class="grid2">
-
-
-        <article>
-
-          <h3>
-            Kundenservice
-          </h3>
-
-          <p>
-            E-Mail-Bearbeitung ·
-            Terminvereinbarungen ·
-            Rückrufmanagement ·
-            Kommunikationsvorlagen
-          </p>
-
-        </article>
-
-
-        <article>
-
-          <h3>
-            Organisation
-          </h3>
-
-          <p>
-            Terminplanung ·
-            Auftragsübersicht ·
-            Nachfassen ·
-            Daten- und Dokumentenpflege
-          </p>
-
-        </article>
-
-
-        <article>
-
-          <h3>
-            Digitaler Auftritt
-          </h3>
-
-          <p>
-            Texte ·
-            FAQ ·
-            Beiträge ·
-            einfache Grafiken ·
-            Bewertungsantworten und -anfragen
-          </p>
-
-        </article>
-
-
-        <article>
-
-          <h3>
-            Recherche &amp; Prozesse
-          </h3>
-
-          <p>
-            Informationsrecherche ·
-            digitale Abläufe strukturieren ·
-            Vorlagen ·
-            einfache Automatisierungsideen
-          </p>
-
-        </article>
-
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =========================
-         PAKETE
-    ========================== -->
-
-    <section
-      id="pakete"
-      class="section"
-    >
-
-      <p class="eyebrow">
-        PAKETE
-      </p>
-
-
-      <h2>
-        Klar starten.<br>
-        Später skalieren.
-      </h2>
-
-
-      <div class="pricing">
-
-
-        <article>
-
-          <span>
-            DIGITAL-CHECK
-          </span>
-
-          <h3>
-            149 €
-          </h3>
-
-          <p>
-            einmalig
-          </p>
-
-
-          <ul>
-            <li>
-              Analyse des Online-Auftritts
-            </li>
-
-            <li>
-              Verbesserungsvorschläge
-            </li>
-
-            <li>
-              Bewertungsvorlagen
-            </li>
-
-            <li>
-              Kundenanfrage-Vorlage
-            </li>
-          </ul>
-
-        </article>
-
-
-
-        <article class="featured">
-
-          <span>
-            BUSINESS
-          </span>
-
-          <h3>
-            349 €
-          </h3>
-
-          <p>
-            pro Monat
-          </p>
-
-
-          <ul>
-            <li>
-              3 Beiträge + Grafiken
-            </li>
-
-            <li>
-              FAQ + Nachfassvorlagen
-            </li>
-
-            <li>
-              Bewertungsmanagement
-            </li>
-
-            <li>
-              Textvorbereitung &amp; Recherche
-            </li>
-
-            <li>
-              Monatlicher Digital-Check
-            </li>
-          </ul>
-
-        </article>
-
-
-      </div>
-
-
-      <p class="note">
-        Jeder Betrieb ist anders.
-        Individuelle Leistungen können passend
-        zum Bedarf zusammengestellt werden.
-      </p>
-
-    </section>
-
-
-
-    <!-- =========================
-         MUSTERANALYSE
-    ========================== -->
-
-    <section class="section sample">
-
-      <p class="eyebrow">
-        MUSTERANALYSE
-      </p>
-
-
-      <h2>
-        So kann OPNEVA konkret unterstützen.
-      </h2>
-
-
-      <p>
-        Als Portfolio- und Demonstrationsprojekt
-        haben wir beispielhaft analysiert,
-        wie ein regionaler Handwerksbetrieb
-        digitale Kontaktpunkte und
-        Kundenkommunikation strukturieren könnte.
-      </p>
-
-
-      <a
-        class="btn ghost"
-        href="OPNEVA_Musteranalyse_Paulussen.pdf"
-        target="_blank"
-        rel="noopener"
-      >
-        Musteranalyse ansehen
-      </a>
-
-
-      <p class="fine">
-        Hinweis: Malermeister &amp; Baubetrieb
-        Paulussen ist nicht Auftraggeber und steht
-        derzeit in keiner geschäftlichen Verbindung
-        zu OPNEVA.
-      </p>
-
-    </section>
-
-
-
-    <!-- =========================
-         ABLAUF
-    ========================== -->
-
-    <section
-      id="ablauf"
-      class="section dark"
-    >
-
-      <p class="eyebrow">
-        SO FUNKTIONIERT'S
-      </p>
-
-
-      <h2>
-        In vier einfachen Schritten.
-      </h2>
-
-
-      <div class="steps">
-
-
-        <article>
-
-          <b>01</b>
-
-          <h3>
-            Kennenlernen
-          </h3>
-
-          <p>
-            Wir besprechen Bedarf und
-            aktuelle Abläufe.
-          </p>
-
-        </article>
-
-
-        <article>
-
-          <b>02</b>
-
-          <h3>
-            Einrichtung
-          </h3>
-
-          <p>
-            Wir bereiten Tools,
-            Vorlagen und Prozesse vor.
-          </p>
-
-        </article>
-
-
-        <article>
-
-          <b>03</b>
-
-          <h3>
-            Start
-          </h3>
-
-          <p>
-            Aufgaben und Anfragen werden
-            strukturiert bearbeitet.
-          </p>
-
-        </article>
-
-
-        <article>
-
-          <b>04</b>
-
-          <h3>
-            Entlastung
-          </h3>
-
-          <p>
-            Mehr Zeit fürs Kerngeschäft
-            und weniger Bürochaos.
-          </p>
-
-        </article>
-
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =========================
-         KONTAKT
-    ========================== -->
-
-    <section
-      id="kontakt"
-      class="section contact"
-    >
-
-      <p class="eyebrow">
-        KONTAKT
-      </p>
-
-
-      <h2>
-        Lassen Sie uns sprechen.
-      </h2>
-
-
-      <p>
-        Unverbindlich. Persönlich.
-        Auf Augenhöhe.
-      </p>
-
-
-      <a
-        class="btn"
-        href="mailto:officeopneva@gmail.com?subject=Anfrage%20an%20OPNEVA"
-      >
-        officeopneva@gmail.com
-      </a>
-
-
-      <p class="fine">
-        Vorübergehende Kontaktadresse.
-        Eine E-Mail-Adresse unter opneva.de
-        kann später ergänzt werden.
-      </p>
-
-    </section>
-
-
-  </main>
-
-
-
-  <!-- =========================
-       FOOTER
-  ========================== -->
-
-  <footer>
-
-    <div>
-
-      <strong>
-        OPNEVA
-      </strong>
-
-      <small>
-        Operations. Elevated.
-      </small>
-
     </div>
+  </section>
 
-
-    <div>
-
-      <a href="impressum.html">
-        Impressum
-      </a>
-
-      ·
-
-      <a href="datenschutz.html">
-        Datenschutz
-      </a>
-
+  <section class="section-shell section-light" id="ueber-uns">
+    <p class="eyebrow">ÜBER OPNEVA</p>
+    <div class="section-heading">
+      <h2>Ein modernes Backoffice,<br>das mitdenkt.</h2>
+      <p>OPNEVA unterstützt kleine und mittelständische Unternehmen bei Organisation, Kundenkommunikation, digitalen Inhalten und strukturierten Abläufen – damit im Tagesgeschäft weniger liegen bleibt.</p>
     </div>
+    <div class="cards cards-3">
+      <article class="card"><span class="card-no">01</span><h3>Persönlich</h3><p>Klare Kommunikation und ein direkter Ansprechpartner.</p></article>
+      <article class="card"><span class="card-no">02</span><h3>Flexibel</h3><p>Unterstützung passend zum tatsächlichen Bedarf.</p></article>
+      <article class="card"><span class="card-no">03</span><h3>Effizient</h3><p>Weniger Kleinkram, bessere Abläufe und mehr Fokus.</p></article>
+    </div>
+  </section>
 
-  </footer>
+  <section class="section-shell section-dark" id="leistungen">
+    <p class="eyebrow">UNSERE LEISTUNGEN</p>
+    <div class="section-heading compact">
+      <h2>Wir übernehmen Aufgaben,<br>die Zeit kosten.</h2>
+      <p>Von wiederkehrender Kommunikation bis zur digitalen Organisation: Sie geben ab, was Sie im Alltag ausbremst.</p>
+    </div>
+    <div class="cards cards-2 service-grid">
+      <article class="card service-card"><h3>Kundenservice</h3><p>E-Mail-Bearbeitung · Terminvereinbarungen · Rückrufmanagement · Kommunikationsvorlagen</p></article>
+      <article class="card service-card"><h3>Organisation</h3><p>Terminplanung · Auftragsübersicht · Nachfassen · Daten- und Dokumentenpflege</p></article>
+      <article class="card service-card"><h3>Digitaler Auftritt</h3><p>Texte · FAQ · Beiträge · einfache Grafiken · Bewertungsantworten und Bewertungsanfragen</p></article>
+      <article class="card service-card"><h3>Recherche &amp; Prozesse</h3><p>Informationsrecherche · Vorlagen · strukturierte digitale Abläufe · einfache Automatisierungsideen</p></article>
+    </div>
+  </section>
 
+  <section class="section-shell section-light" id="pakete">
+    <p class="eyebrow">PAKETE</p>
+    <div class="section-heading compact">
+      <h2>Klar starten.<br>Später skalieren.</h2>
+      <p>Zwei einfache Einstiege – ohne unnötig komplizierte Leistungspakete.</p>
+    </div>
+    <div class="pricing-grid">
+      <article class="price-card">
+        <p class="price-label">DIGITAL-CHECK</p>
+        <div class="price"><strong>149 €</strong><span>einmalig</span></div>
+        <ul><li>Analyse des Online-Auftritts</li><li>Verbesserungsvorschläge</li><li>Bewertungsvorlagen</li><li>Kundenanfrage-Vorlage</li></ul>
+        <a class="btn btn-secondary full" href="#kontakt">Digital-Check anfragen</a>
+      </article>
+      <article class="price-card featured">
+        <p class="price-label">BUSINESS</p>
+        <div class="price"><strong>349 €</strong><span>pro Monat</span></div>
+        <ul><li>3 Beiträge + Grafiken</li><li>FAQ + Nachfassvorlagen</li><li>Bewertungsmanagement</li><li>Textvorbereitung &amp; Recherche</li><li>Monatlicher Digital-Check</li></ul>
+        <a class="btn btn-primary full" href="#kontakt">Business anfragen</a>
+      </article>
+    </div>
+    <p class="note">Jeder Betrieb ist anders. Individuelle Leistungen können passend zum Bedarf zusammengestellt werden.</p>
+  </section>
 
-  <script src="script.js"></script>
+  <section class="section-shell section-dark" id="ablauf">
+    <p class="eyebrow">SO FUNKTIONIERT'S</p>
+    <div class="section-heading compact"><h2>In vier einfachen Schritten.</h2></div>
+    <div class="steps">
+      <article><span>01</span><h3>Kennenlernen</h3><p>Wir besprechen Bedarf und aktuelle Abläufe.</p></article>
+      <article><span>02</span><h3>Einrichtung</h3><p>Wir bereiten Tools, Vorlagen und Prozesse vor.</p></article>
+      <article><span>03</span><h3>Start</h3><p>Aufgaben und Anfragen werden strukturiert bearbeitet.</p></article>
+      <article><span>04</span><h3>Entlastung</h3><p>Mehr Zeit fürs Kerngeschäft und weniger Bürochaos.</p></article>
+    </div>
+  </section>
 
+  <section class="section-shell section-light sample-section">
+    <p class="eyebrow">MUSTERANALYSE</p>
+    <div class="sample-box">
+      <div><h2>So kann OPNEVA konkret unterstützen.</h2><p>Als Portfolio- und Demonstrationsprojekt zeigen wir beispielhaft, wie ein regionaler Handwerksbetrieb digitale Kontaktpunkte und Kundenkommunikation strukturieren könnte.</p></div>
+      <a class="btn btn-secondary" href="OPNEVA_Musteranalyse_Paulussen.pdf" target="_blank" rel="noopener">Musteranalyse ansehen</a>
+    </div>
+    <p class="fine">Hinweis: Malermeister &amp; Baubetrieb Paulussen ist nicht Auftraggeber und steht derzeit in keiner geschäftlichen Verbindung zu OPNEVA.</p>
+  </section>
+
+  <section class="section-shell contact-section" id="kontakt">
+    <p class="eyebrow">KONTAKT</p>
+    <div class="contact-box">
+      <div><h2>Lassen Sie uns sprechen.</h2><p>Unverbindlich. Persönlich. Auf Augenhöhe.</p></div>
+      <a class="btn btn-primary" href="mailto:officeopneva@gmail.com?subject=Anfrage%20an%20OPNEVA">officeopneva@gmail.com</a>
+    </div>
+    <p class="fine">Vorübergehende Kontaktadresse. Eine E-Mail-Adresse unter opneva.de kann später ergänzt werden.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-brand"><img src="Logo.png" alt=""><div><strong>OPNEVA</strong><small>Operations. Elevated.</small></div></div>
+  <div class="footer-links"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div>
+</footer>
+<script src="script.js"></script>
 </body>
-
 </html>
