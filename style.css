@@ -698,6 +698,30 @@ p {
   color: var(--muted);
 }
 
+.legal-card h2 {
+  margin-top: 30px;
+  margin-bottom: 12px;
+  color: var(--gold-300);
+  font-size: clamp(21px, 3vw, 27px);
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+.legal-card h2:first-child {
+  margin-top: 0;
+}
+
+.legal-card p {
+  margin-bottom: 24px;
+}
+
+.legal-card a:not(.btn) {
+  color: var(--gold-300);
+  text-decoration: underline;
+  text-decoration-color: rgba(242, 215, 132, 0.5);
+  text-underline-offset: 0.2em;
+}
+
 .service-card {
   min-height: 210px;
   padding: 34px;
