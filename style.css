@@ -770,6 +770,14 @@ p {
   letter-spacing: 0.22em;
 }
 
+.package-intro {
+  min-height: 4.8em;
+  margin: -4px 0 20px;
+  color: var(--muted) !important;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
 .price {
   display: flex;
   align-items: baseline;
@@ -787,6 +795,18 @@ p {
 .price span {
   color: var(--muted);
   font-size: 14px;
+}
+
+.package-capacity {
+  align-self: flex-start;
+  margin: -4px 0 24px;
+  padding: 8px 12px;
+  border: 1px solid rgba(239, 202, 112, 0.38);
+  border-radius: 999px;
+  background: rgba(213, 168, 63, 0.08);
+  color: var(--gold-200) !important;
+  font-size: 13px;
+  font-weight: 800;
 }
 
 .price-card ul {
@@ -824,6 +844,10 @@ p {
   margin-top: 30px !important;
   color: var(--muted) !important;
   text-align: center;
+}
+
+.package-terms {
+  line-height: 1.75;
 }
 
 /* Sample and contact */
@@ -1216,6 +1240,10 @@ textarea {
   .card,
   .price-card {
     padding: 25px 22px;
+  }
+
+  .package-intro {
+    min-height: 0;
   }
 
   .price {
