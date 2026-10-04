@@ -745,7 +745,7 @@ p {
 .pricing-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 22px;
+  gap: 24px;
 }
 
 .price-card {
@@ -760,20 +760,6 @@ p {
     radial-gradient(circle at 100% 0, rgba(213, 168, 63, 0.16), transparent 18rem),
     linear-gradient(145deg, rgba(255, 255, 255, 0.065), transparent 42%),
     var(--surface-strong);
-}
-
-.package-badge {
-  align-self: flex-start;
-  margin: 0 0 18px;
-  padding: 7px 11px;
-  border: 1px solid rgba(239, 202, 112, 0.48);
-  border-radius: 999px;
-  background: rgba(213, 168, 63, 0.1);
-  color: var(--gold-300) !important;
-  font-size: 10px;
-  font-weight: 850;
-  letter-spacing: 0.13em;
-  line-height: 1.25;
 }
 
 .price-label {
@@ -998,7 +984,13 @@ textarea {
   }
 
   .pricing-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .pricing-grid .price-card:last-child {
+    grid-column: 1 / -1;
+    width: min(100%, 520px);
+    justify-self: center;
   }
 }
 
@@ -1149,6 +1141,11 @@ textarea {
   .cards-2,
   .pricing-grid {
     grid-template-columns: 1fr;
+  }
+
+  .pricing-grid .price-card:last-child {
+    grid-column: auto;
+    width: 100%;
   }
 
   .service-card {
